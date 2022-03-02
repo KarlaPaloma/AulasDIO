@@ -17,5 +17,9 @@ public class Main {
         Mensagem.mensagemTarde(14);
         Mensagem.mensagemNoite(18);
 
+        System.out.println(">> Empréstimo");
+        Emprestimo.calcular(400, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(500, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(200, 0);
     }
 }
