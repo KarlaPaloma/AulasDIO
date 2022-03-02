@@ -21,5 +21,10 @@ public class Main {
         Emprestimo.calcular(400, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(500, Emprestimo.getTresParcelas());
         Emprestimo.calcular(200, 0);
+
+        System.out.println(">> Calculando áreas");
+        Quadrilatero.area(2);
+        Quadrilatero.area(2,3);
+        Quadrilatero.area(2,3,4);
     }
 }
